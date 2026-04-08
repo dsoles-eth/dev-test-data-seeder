@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.backends.legacy:build"
+
+[project]
+name = "dev-test-data-seeder"
+version = "0.1.0"
+description = "A CLI utility for automating the generation, seeding, and validation of realistic test data across local development environments and databases."
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+keywords = ["python", "click", "sqlalchemy", "faker", "docker-py"]
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/{GITHUB_USERNAME}/dev-test-data-seeder"
